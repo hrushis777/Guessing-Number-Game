@@ -45,12 +45,13 @@ document.querySelector('.check').addEventListener('click', function () {
     //   }
     // }
 
-    //After Using DRY Principle/ Removing Duplicacy. 
+    //After Using DRY Principle/ Removing Duplicacy.
   } else if (guess !== secretNumber) {
     if (score > 1) {
       document.querySelector('.message').textContent =
         guess > secretNumber ? 'Too high!' : 'Too Low!';
       score--;
+      document.querySelector('body').style.backgroundColor = 'red';
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.message').textContent = 'You lost the Game!';
