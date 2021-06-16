@@ -117,3 +117,71 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* Media query for 720px starts here */
+@media (max-width: 720px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .btn {
+    padding: 1rem 2rem;
+  }
+  .btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+  .guess {
+    padding: 0.5rem;
+    width: 19rem;
+    font-size: 4rem;
+  }
+  .message {
+    margin-left: 3rem;
+    font-size: 14px;
+  }
+  .label-score {
+    font-size: 14px;
+  }
+  .label-highscore {
+    font-size: 14px;
+  }
+}
+/* Media query for 720px ends here */
+/* Media query for 480px starts here */
+@media (max-width: 480px) {
+  .between {
+    font-size: 7px;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 13px;
+  }
+  .number {
+    font-size: 2rem;
+    width: 14rem;
+    padding: 2rem 0rem;
+  }
+  main {
+    height: 47vh;
+  }
+  .guess {
+    width: 11rem;
+    font-size: 2rem;
+  }
+  .message {
+    margin-bottom: 3rem;
+    height: 3rem;
+  }
+  .label-score {
+    font-size: 11px;
+  }
+  .label-highscore {
+    font-size: 11px;
+  }
+  .right {
+    width: 66rem;
+  }
+}
+/* Media query for 480px ends here */
